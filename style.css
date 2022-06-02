@@ -76,3 +76,48 @@ body {
     font-weight: 700;
     line-height: 125%;
 }
+
+.project-introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 528px;
+}
+
+.project-introduction__title {
+    color: var(--c-dark-80);
+}
+
+.project-introduction__description {
+    color: var(--c-dark-60);
+}
+
+.project-introduction__page-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.page-section {
+    align-items: center;
+    color: var(--c-dark-80);
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.page-section--active {
+    color: var(--c-dark-100);
+    font-weight: 700;
+}
+
+.page-section__divider {
+    background-color: var(--c-dark-80);
+    height: 1px;
+    width: 24px;
+}
+
+.page-section--active > .page-section__divider {
+    background-color: var(--c-dark-100);
+    width: 48px;
+}
