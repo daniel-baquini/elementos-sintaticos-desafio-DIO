@@ -17,6 +17,10 @@ html, body {
     width: 100%;
 }
 
+html {
+    padding: 80px;
+}
+
 body {
     align-items: center;
     background-color: var(--c-white-20);
@@ -24,7 +28,6 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
     justify-content: center;
-    padding: 80px;
 }
 
 .global-shadow {
@@ -36,11 +39,22 @@ body {
     line-height: 175%;
 }
 
-.text-preset-340 {
+.text-preset-320 {
+    font-size: 0.875rem;
+    line-height: 200%;
+}
+
+.text-preset-330 {
     font-size: 0.875rem;
     letter-spacing: 14%;
     line-height: 200%;
     text-transform: uppercase;
+}
+
+.text-preset-340 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 200%;
 }
 
 .text-preset-350 {
