@@ -162,7 +162,6 @@ body {
     align-items: center;
     display: flex;
     flex: 1;
-    overflow: auto;
 }
 
 .syntactic-element {
@@ -172,4 +171,29 @@ body {
     flex-direction: column;
     gap: 8px;
     padding: 40px;
+}
+
+@media (max-width: 1200px) {
+
+    html, body {
+        height: fit-content;
+    }
+
+    body {
+        flex-direction: column;
+    }
+
+    .project-introduction {
+        max-width: 528px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    html {
+        padding: 40px;
+    }
+
 }
