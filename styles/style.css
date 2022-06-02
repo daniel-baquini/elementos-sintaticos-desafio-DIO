@@ -1,5 +1,23 @@
 @import url("./reset.css");
 
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url('./../assets/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    src: url('./../assets/fonts/Roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url('./../assets/fonts/Roboto/Roboto-Bold.ttf');
+}
+
 :root {
     --c-dark-60: rgba(0, 0, 0, 0.6);
     --c-dark-80: rgba(0, 0, 0, 0.8);
