@@ -47,7 +47,7 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
     gap: 80px;
-    max-width: 1440px;
+    max-width: 1280px;
     width: 100%;
 }
 
@@ -130,14 +130,21 @@ body {
 .page-section {
     align-items: center;
     color: var(--c-dark-80);
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     gap: 16px;
+    width: fit-content;
+}
+
+.page-section > * {
+    pointer-events: none;
 }
 
 .page-section--active {
     color: var(--c-dark-100);
     font-weight: 700;
+    transition: 150ms;
 }
 
 .page-section__divider {
@@ -152,15 +159,16 @@ body {
 }
 
 .syntactic-elements-list {
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    flex: 1;
     overflow: auto;
 }
 
 .syntactic-element {
     background-color: var(--c-white-10);
     display: flex;
+    flex: 1;
     flex-direction: column;
     gap: 8px;
     padding: 40px;
