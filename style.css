@@ -1,1 +1,64 @@
 @import url("./reset.css");
+
+:root {
+    --c-dark-60: rgba(0, 0, 0, 0.6);
+    --c-dark-80: rgba(0, 0, 0, 0.8);
+    --c-dark-100: #000000;
+    --c-white-10: #FFFFFF;
+    --c-white-20: #F4F4F4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    align-items: center;
+    background-color: var(--c-white-20);
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: 400;
+    justify-content: center;
+    padding: 80px;
+}
+
+.global-shadow {
+    box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
+}
+
+.text-preset-300 {
+    font-size: 0.875rem;
+    line-height: 175%;
+}
+
+.text-preset-340 {
+    font-size: 0.875rem;
+    letter-spacing: 14%;
+    line-height: 200%;
+    text-transform: uppercase;
+}
+
+.text-preset-350 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 14%;
+    line-height: 200%;
+    text-transform: uppercase;
+}
+
+.text-preset-500 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 175%;
+}
+
+.text-preset-800 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 125%;
+}
